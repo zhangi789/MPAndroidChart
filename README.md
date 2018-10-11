@@ -154,4 +154,4 @@ These people rock!
 - [天一方蓝](https://blog.csdn.net/dt235201314/article/details/54135182) - 天一方蓝
 - [PhilJay](https://github.com/PhilJay/MPAndroidChart) - PhilJay
 
-- [apk下载](http://app-global.pgyer.com/d41085d908b67fc04f54f2bef33110db.apk?attname=MpChart.apk&sign=aab429f2339612af6144304f298c1695&t=5bbef2ad)
+- [Apk下载](http://app-global.pgyer.com/d41085d908b67fc04f54f2bef33110db.apk?attname=MpChart.apk&sign=aab429f2339612af6144304f298c1695&t=5bbef2ad)
