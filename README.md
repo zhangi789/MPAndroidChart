@@ -1,34 +1,25 @@
 ![banner](https://raw.github.com/PhilJay/MPChart/master/design/feature_graphic_smaller.png)
 
-[![Release](https://img.shields.io/github/release/PhilJay/MPAndroidChart.svg?style=flat)](https://jitpack.io/#PhilJay/MPAndroidChart)
-[![API](https://img.shields.io/badge/API-8%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=8)
-[![Android Arsenal](http://img.shields.io/badge/Android%20Arsenal-MPAndroidChart-orange.svg?style=flat)](http://android-arsenal.com/details/1/741)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/PhilJay/MPAndroidChart?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
-[![Twitter](https://img.shields.io/badge/Twitter-@mpandroidchart-blue.svg?style=flat)](http://twitter.com/mpandroidchart)
 
-:zap: A powerful & easy to use chart library for Android :zap:
+## 简介
 
-[**Charts**](https://github.com/danielgindi/Charts) is the iOS version of this library
+   声明：基于PhilJay MPAndroidChart:v3.0.3版本基础上封装，使用方法不变</br>
+  
+  
+   实现特殊功能：添加不同类，与原框架不冲突（不需要集成原框架）</br>
+  
+   封装的原因：</br>
+   
+   1：双或单平滑曲线（双折线图）和MarkView实现   </br>
+   2：自定义1MPAndroidChart滑动冲突解决  </br>
+   3：饼状图实现和文字重合问题解决  </br>
+   4：柱状图实现及X轴文字不显示问题和柱状图上显示文字</br>
+   5: [天一方蓝](https://github.com/JinBoy23520/MPAndroidChartDemoByJin) - 天一方蓝 </br>
+   6：以上功能封装完毕，1，2 二条在本项目已经实现，3，4，请参考5 点击查看demo
 
-## [Realtime Graphing Solution | SciChart](https://scichart.com/android-chart-features?source=MPAndroidChart)
+      
 
-<img align="left" width="190" height="190" style="margin:0px 15px 0px 0px" src="https://raw.github.com/PhilJay/MPChart/master/design/other/left.png">
-<img align="right" width="90" height="90" style="margin:0px 15px 0px 0px" src="https://raw.github.com/PhilJay/MPChart/master/design/other/right.png">
-
-MPAndroidChart is free software, as a result **dynamic & realtime data is not officially supported**. If you are looking for an enterprise-grade chart solution with extreme realtime performance and tech support, we recommend
-<a href="https://scichart.com/android-chart-features?source=MPAndroidChart" target="_blank">SciChart Android</a>.
-
-<img align="right" width="270" height="60" style="margin:0px 0px 0px 0px" src="https://raw.github.com/PhilJay/MPChart/master/design/other/bottom.png">
-
-All MPAndroidChart users are entitled to a special **discount of 5%** off the <a href="https://store.scichart.com?productTab=Android&CouponCode=MPANDROIDCHART&source=MPAndroidChart" target="_blank">SciChart store</a>, using the following discount code: **MPANDROIDCHART**
-
-<br/>
-
-## [Daily Coding Newsletter](https://philjay.substack.com/subscribe)
-
-Sign up for my [daily coding newsletter](https://philjay.substack.com/subscribe) to get quick updates on Kotlin and Android development related topics.
-
-## Usage :chart_with_upwards_trend:
+## 集成
 
 **Gradle**
 
@@ -43,31 +34,11 @@ allprojects {
 - **App level `build.gradle`**
 ```gradle
 dependencies {
-    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    implementation 'com.github.zhangi789:MPAndroidChart:v3.0.3'
 }
 ```
 
-**Maven**
-
-```xml
-<!-- <repositories> section of pom.xml -->
-<repository>
-    <id>jitpack.io</id>
-   <url>https://jitpack.io</url>
-</repository>
-
-
-<!-- <dependencies> section of pom.xml -->
-<dependency>
-    <groupId>com.github.PhilJay</groupId>
-    <artifactId>MPAndroidChart</artifactId>
-    <version>v3.0.3</version>
-</dependency>
-```
-
-<br/>
-
-## Documentation :notebook_with_decorative_cover:
+## 文献
 
 See the [**documentation**](https://github.com/PhilJay/MPAndroidChart/wiki) for examples and general use of MPAndroidChart.
 
@@ -75,14 +46,10 @@ See the [**javadocs**](https://jitpack.io/com/github/PhilJay/MPAndroidChart/v3.0
 
 <br/>
 
-## Examples :eyes:
-Download the [MPAndroidChart Example App](https://play.google.com/store/apps/details?id=com.xxmassdeveloper.mpchartexample) or look at the [source code](https://github.com/PhilJay/MPAndroidChart/tree/master/MPChartExample).
-
-[![ScreenShot](https://github.com/PhilJay/MPAndroidChart/blob/master/design/video_thumbnail.png)](https://www.youtube.com/watch?v=ufaK_Hd6BpI)
 
 <br/>
 
-## Questions & Issues :thinking:
+## 出现问题 & 解决方式 :思考:
 
 This repository's issue tracker is only for bugs and feature requests. The maintainers ask that you refrain from asking questions about how to use MPAndroidChart through the issue tracker.
 
@@ -90,39 +57,7 @@ Please read the [**documentation**](https://github.com/PhilJay/MPAndroidChart/wi
 
 <br/>
 
-## Donations :heart:
 
-**This project needs you!** If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, **feel free to donate**. Your donation is highly appreciated (and I love food, coffee and beer). Thank you!
-
-**My Bitcoin Wallet** (Bitcoin only)
-
-1G8G6tqQ3oh38BvDH3xq8o6gGVMvBTkcUg
-
-**My Ethereum Wallet** (Ethereum only)
-
-0x04ef098bf9f91871391363e3caf791afa3adc39b
-
-**PayPal**
-
-- [**Donate 5 $**](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7G52RA87ED8NY): Thank's for creating this project, here's a coffee (or some beer) for you!
-- [**Donate 10 $**](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4C9TPE67F5PUQ): Wow, I am stunned. Let me take you to the movies!
-- [**Donate 15 $**](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YKMPTFMVK3JMC): I really appreciate your work, let's grab some lunch! 
-- [**Donate 25 $**](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H9JA4QX7UHXCY): That's some awesome stuff you did right there, dinner is on me!
-- Or you can also [**choose what you want to donate**](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EGBENAC5XBCKS), all donations are awesome!
-
-<br/>
-
-## Social Media :fire:
-
-If you like this library, please tell others about it :two_hearts: :two_hearts:
-
-[![Share on Twitter](https://github.com/PhilJay/MPAndroidChart/blob/master/design/twitter_icon.png)](https://twitter.com/intent/tweet?text=Check%20out%20the%20awesome%20MPAndroidChart%20library%20on%20Github:%20https://github.com/PhilJay/MPAndroidChart)
-[![Share on Google+](https://github.com/PhilJay/MPAndroidChart/blob/master/design/googleplus_icon.png)](https://plus.google.com/share?url=https://github.com/PhilJay/MPAndroidChart)
-[![Share on Facebook](https://github.com/PhilJay/MPAndroidChart/blob/master/design/facebook_icon.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/PhilJay/MPAndroidChart)
-
-You can follow me on Twitter [**@PhilippJahoda**](https://twitter.com/PhilippJahoda) or sign up for my [**daily coding newsletter**](https://philjay.substack.com/subscribe).
-
-<br/>
 
 ## More Examples :+1:
 
@@ -212,12 +147,11 @@ limitations under the License.
 
 <br/>
 
-## Special Thanks :heart:
+## 特别感谢:心:
 
 These people rock!
 
-- [danielgindi](https://github.com/danielgindi) - Daniel Gindi
-- [mikegr](https://github.com/mikegr) - Michael Greifeneder
-- [tony](https://github.com/tonypatino-monoclesociety) - Tony
-- [almic](https://github.com/almic) - Mick A.
-- [jitpack.io](https://github.com/jitpack-io) - JitPack.io
+- [天一方蓝](https://blog.csdn.net/dt235201314/article/details/54135182) - 天一方蓝
+- [PhilJay](https://github.com/PhilJay/MPAndroidChart) - PhilJay
+
+- [apk下载](http://app-global.pgyer.com/d41085d908b67fc04f54f2bef33110db.apk?attname=MpChart.apk&sign=aab429f2339612af6144304f298c1695&t=5bbef2ad) - Andy
