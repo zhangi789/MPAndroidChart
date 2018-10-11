@@ -15,5 +15,5 @@ allprojects {
 - **App level `build.gradle`**
 ```gradle
 dependencies {
-    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    implementation 'com.github.zhangi789:MPAndroidChart:v3.0.3'
 }
