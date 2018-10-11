@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--财务模块-->
+    <color name="financeTabBg">#f1f1f1</color>
+    <color name="financeBCNet">#ebfeff</color>
+    <color name="financeAll">#fdffe8</color>
+    <color name="financeLow80">#F03967</color>
+    <color name="financeGreat100">#12CD7C</color>
+    <color name="financeG80L100">#FAF038</color>
+    <color name="financeItemBg">#fafafa</color>
+    <color name="financeItemBg2">#5fd1cc</color>
+
+    <color name="six18_red">#FF414E</color>
+    <color name="six18_cell_bg">#FFF5E0</color>
+    <color name="six18_cell_bg2">#f5f5f5</color>
+    <color name="dash_line">#D9D9D9</color>
+    <color name="dash_line2">#7189a9</color>
+</resources>

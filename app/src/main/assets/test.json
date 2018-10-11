@@ -1,0 +1,41 @@
+{
+  "errCode": 0,
+  "errDesc": "ok",
+  "rsp": [{
+    "month": "2018-09",
+    "electricity": "100"
+  }, {
+    "month": "2018-08",
+    "electricity": "83"
+  }, {
+    "month": "2018-07",
+    "electricity": "49"
+  }, {
+    "month": "2018-06",
+    "electricity": "22"
+  }, {
+    "month": "2018-05",
+    "electricity": "83"
+  }, {
+    "month": "2018-4",
+    "electricity": "0.0"
+  }, {
+    "month": "2017-03",
+    "electricity": "0"
+  }, {
+    "month": "2018-2",
+    "electricity": "2"
+  }, {
+    "month": "2018-1",
+    "electricity": "8"
+  }, {
+    "month": "2017-12",
+    "electricity": "6"
+  }, {
+    "month": "2017-11",
+    "electricity": "5"
+  }, {
+    "month": "2017-10",
+    "electricity": "4"
+  }]
+}
