@@ -16,6 +16,7 @@
    4：柱状图实现及X轴文字不显示问题和柱状图上显示文字</br>
    5: [天一方蓝](https://github.com/JinBoy23520/MPAndroidChartDemoByJin) - 天一方蓝 </br>
    6：以上功能封装完毕，1，2 二条在本项目已经实现，3，4，请参考5 点击查看demo
+   7：Apk体验请下拉到底
 
       
 
