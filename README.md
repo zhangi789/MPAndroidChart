@@ -156,3 +156,4 @@ These people rock!
 - [PhilJay](https://github.com/PhilJay/MPAndroidChart) - PhilJay
 
 - [Apk下载](http://app-global.pgyer.com/d41085d908b67fc04f54f2bef33110db.apk?attname=MpChart.apk&sign=aab429f2339612af6144304f298c1695&t=5bbef2ad)
+<img src="https://github.com/zhangi789/MPAndroidChart/blob/master/screenshot/chart.png" width="40%" height="40%" div align=center>
